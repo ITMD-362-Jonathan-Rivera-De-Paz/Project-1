@@ -1,0 +1,28 @@
+fieldset{
+  border: 0.36em solid black;
+  padding: 5%;
+  margin-bottom: 5%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: yellow;
+}
+
+body{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 10%;
+  margin: 1em;
+  font-size: 1.33em;
+}
+
+h1, h2, h3{
+  font-family: 'Bangers', cursive, sans-serif;
+}
+
+p, label, input, button{
+  font-family: 'Arial', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Sans+MS&display=swap');
+
