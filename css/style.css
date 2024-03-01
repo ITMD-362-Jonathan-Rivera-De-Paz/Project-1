@@ -8,6 +8,9 @@ fieldset{
   margin-right: auto;
   display: block;
   position: center;
+  border-radius: 0.36em;
+  padding: 0.67em;
+  margin: 1em;
 }
 
 body{
