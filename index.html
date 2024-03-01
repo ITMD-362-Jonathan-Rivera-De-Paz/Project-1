@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
+<html lang="en">
 <head>
   <title>Sign Up</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <link rel="stylesheet" media="screen" href="css/reset.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
-  <script src="script.js" async></script>
+  <script src="/script.js" async></script>
 </head>
 <body>
   <header>
@@ -14,7 +14,7 @@
     <p>To keep up with the latest updates of your favorite comics</p>
   </header>
   <fieldset>
-      <form action="#null" method="post" autocomplete="on">
+      <form action="#" method="post" autocomplete="on" id="subscribeForm">
 		<h2>Form</h2>
 		<div>
 		  <label>Full Name:</label>
@@ -37,7 +37,11 @@
 		  <input type="checkbox" id="option3" value="IDW">
 		  <label for="option3">IDW</label>
 	    </div>
-      <input type ="submit">
+      <input type ="submit" onclick="subscribe()"></input>
+      <div id="thankYou" style="display: none;">
+        Thank you for subscribing!
+      </div>
+
     </form>
   </fieldset>
 </body>

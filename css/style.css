@@ -20,6 +20,12 @@ body{
 
 h1, h2, h3{
   font-family: 'Bangers', cursive, sans-serif;
+  position: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: center;
 }
 
 p, label, input, button{
