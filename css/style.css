@@ -5,33 +5,27 @@ fieldset{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  position: center;
   border-radius: 0.36em;
-  padding: 0.67em;
-  margin: 1em;
 }
 
 body{
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  padding: 10%;
-  margin: 1em;
+  padding: 0;
+  margin: 0;
   font-size: 1.33em;
   background-color: yellow;
+  background-image: url('images/comic-bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 h1, h2, h3{
   font-family: 'Bangers', cursive, sans-serif;
-  position: center;
-  
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: center;
+  text-align: center;
 }
 
 p, label, input, button{
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 
 @media(min-width: 480px){
@@ -40,11 +34,12 @@ p, label, input, button{
 	padding: 4%;
 	width: 70%;
 	position: relative;
-}
+  }
   body{
 	padding: 8%;
 	margin: 0.776em;
     font-size: 1em;
+  }
 }
 
 @media(min-width: 992px){
